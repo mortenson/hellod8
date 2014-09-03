@@ -1,13 +1,13 @@
 page_example_description:
-  path: 'examples/page_example'
-  defaults:
-    _content: '\Drupal\page_example\Controller\PageExampleController::description'
-  requirements:
-    _access: 'TRUE'
- 
+  path: 'examples/page_example'
+  defaults:
+    _content: '\Drupal\page_example\Controller\PageExampleController::description'
+  requirements:
+    _access: 'TRUE'
+
 page_example_simple:
-  path: 'examples/page_example/simple'
-  defaults:
-    _content: '\Drupal\page_example\Controller\PageExampleController::simple'
-  requirements:
-    _permission: 'access simple page'
+  path: 'examples/page_example/simple'
+  defaults:
+    _content: '\Drupal\page_example\Controller\PageExampleController::simple'
+  requirements:
+    _permission: 'access simple page'
