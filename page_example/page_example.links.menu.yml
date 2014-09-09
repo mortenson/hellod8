@@ -5,4 +5,4 @@ page_example.description:
 page_example.simple:
   title: Simple - no arguments
   route_name: page_example_simple
-  parent: page_example.description
+  parent: system.admin_reports
